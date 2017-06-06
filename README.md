@@ -1,4 +1,9 @@
 # algorithmn
 some  test for algorithmn 
 
-from ccf or other website
+from offer code  or other website
+ 
+
+
+
+
