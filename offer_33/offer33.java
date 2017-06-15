@@ -1,4 +1,9 @@
 
+/*
+
+返回第i个 丑数(因子只有2,3,5)
+
+*/
 public class Solution {
     public int GetUglyNumber_Solution(int index) {
       
