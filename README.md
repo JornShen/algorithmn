@@ -28,5 +28,7 @@ from offer code  or other website
 
 42 有序队列中求和为sum的两个数  夹逼 详细见文件 
 
+43 字符串移位操作 使用三次翻转实现 巧解2 也很巧妙 详细见文件 
+
 
 
