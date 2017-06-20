@@ -11,7 +11,7 @@ public class Solution {
         boolean ans = (n>0)&&((sum+=Sum_Solution(n-1))>0);// 借用 && 实现递归的终止条件
         return sum; 
     }
-
+    
     /***
 	private int sum = 0;
     public int Sum_Solution(int n) {
