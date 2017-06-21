@@ -44,7 +44,7 @@ from offer code  or other website
 
 49  将字符串转化为数字
 
-
+50　数组从 0 到n - 1 看是否有重复数字，用hash来做，详细见文件
 
 
 
