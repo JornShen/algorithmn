@@ -52,5 +52,7 @@ from offer code  or other website
 
 
 
+53 判断是否是数  采用普通算法  文件最上方有正则匹配式子
+
 
 
