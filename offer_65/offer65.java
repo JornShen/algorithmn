@@ -71,7 +71,7 @@ public class Solution {
         return 1 + helper(x + 1, y, rows, cols, flag, threshold) 
             	+ helper(x - 1, y, rows, cols, flag, threshold) 
         		+ helper(x, y - 1, rows, cols, flag, threshold) 
-        		+ helper(x, y + 1, rows, cols, flag, threshold);
+        		+ helper(x, y + 1, rows, cols, flag, threshold);  
     } 
     public int count(int num){
         int sum = 0;
