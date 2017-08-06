@@ -52,4 +52,64 @@ public class Solution {
 
 // 一开始使用了set来区分，后面发现是错误的，应该使用map，因为有的单词可能重复。算法复杂度有点高
 
+// 其他人的解法 好像跟我的差不多
+public class Solution {
 
+    public List<Integer> findSubstring(String s, String[] words)  
+    {
+        List<Integer> res = new ArrayList<>();   
+        int strlen = s.length(), wordlen = words[0].length(), totallen = wordlen * words.length;
+        if (strlen < totallen) return res;
+        Map<String, Integer> map = new HashMap<>();
+        for (String word : words) map.put(word, map.getOrDefault(word, 0) + 1);
+        for (int i = 0; i < wordlen; i++)
+        {
+            int wsize = 0;
+            Map<String, Integer> map1 = new HashMap();
+            for (int j = i; j <= strlen + wsize - totallen; j += wordlen)
+            {
+                String word = s.substring(j, j+wordlen);
+                if (map.containsKey(word))
+                {
+                    if (map.get(word) > map1.getOrDefault(word,0))
+                    {
+                        map1.put(word,map1.getOrDefault(word,0) + 1);
+                        wsize += wordlen;
+                        if (wsize == totallen) 
+                        {
+                    		int id = j - wsize + wordlen;
+                    		res.add(id); // not i
+                    		wsize -= wordlen; // update wsize, sliding to next;
+                    		String first = s.substring(id,id+wordlen);
+                    		map1.put(first, map1.get(first) - 1);
+                        }
+			
+                    }
+                    else
+                    {
+                        
+                        int k = j - wsize;
+                		String sameword = s.substring(k, k+wordlen);
+                		while (!sameword.equals(word)) 
+                		{
+                			map1.put(sameword, map1.get(sameword) - 1);        			
+                			wsize -= wordlen;
+                			k += wordlen;
+                			sameword = s.substring(k, k+wordlen);
+                		}
+                    }
+  
+                }
+                
+                else if (!map1.isEmpty())
+                {
+                    
+                    map1.clear();
+                    wsize = 0;
+                }
+            }
+            
+        }
+        return res;
+    }
+}
