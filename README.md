@@ -1,8 +1,5 @@
 # algorithmn
-some  test for algorithmn 
-
-from offer code  or other website
-
+algorithmn record from newcode(offercode) and leecode(hard type)
 
 33 丑数, 算法参考他人,比较精妙
 
@@ -117,7 +114,7 @@ leecode
 
 13 间隔合并问题。确定 start 和 end，并在合适的位置进行添加
 
-
+14 n皇后问题，非递归写法，递归写法，详细见文件。
   
 
 
