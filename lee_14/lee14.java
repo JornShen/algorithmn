@@ -46,7 +46,7 @@ public class Solution {
                         result[k] = 0;
                     }
                 }
-            }
+            }	
             k--;// 返回上一层
         }
         return list;
