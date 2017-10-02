@@ -6,6 +6,7 @@
 
 方法二: 动态规划 
 
+[java 实现](http://blog.csdn.net/xiaoyi357/article/details/70209164)
 
 ****/
 
@@ -102,8 +103,3 @@ public static String maxSubString3(String strOne, String strTwo) {
     if (maxLen == 0) return null;
     return strOne.substring(pos - maxLen + 1, pos + 1);
 }
-
-
-
-
-
