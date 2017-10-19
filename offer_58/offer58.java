@@ -24,6 +24,7 @@ public class Solution {
     }
     
      boolean judge(TreeNode lRoot, TreeNode rRoot){
+        //　左右两边的子树需要相同
          if(lRoot == null && rRoot == null) return  true;
          if(lRoot == null || rRoot == null) return  false;
          if(lRoot.val == rRoot.val){
@@ -31,7 +32,6 @@ public class Solution {
          }else{
              return false;
          }
-         
          /***  同样的代码，这样写更优雅  版本一
             if(left == null) return right==null; //相当于一个 && 操作 
             if(right == null) return false;

@@ -53,6 +53,7 @@ public class Solution {
         if(pRoot == null) return null;
         TreeNode temp = pRoot;
         if(k == 0) return null;
+        // 　中序遍历 
         while(temp != null || !stack.isEmpty()){
             while(temp != null){
                  stack.push(temp);

@@ -97,11 +97,12 @@ public class Solution {
         if (i < 0 || i >= rows || j < 0 || j >= cols || matrix[index] != str[k] || flag[index] == 1)
             return false;
         if(k == str.length - 1) return true;
+
         flag[index] = 1;
-        if (helper(matrix, rows, cols, i - 1, j, str, k + 1, flag)
-                || helper(matrix, rows, cols, i + 1, j, str, k + 1, flag)
-                || helper(matrix, rows, cols, i, j - 1, str, k + 1, flag)
-                || helper(matrix, rows, cols, i, j + 1, str, k + 1, flag)) {
+        if (helper(matrix, rows, cols, i - 1, j, str, k + 1, flag) // 左
+                || helper(matrix, rows, cols, i + 1, j, str, k + 1, flag)　//　右
+                || helper(matrix, rows, cols, i, j - 1, str, k + 1, flag)　//　下
+                || helper(matrix, rows, cols, i, j + 1, str, k + 1, flag)) { //　上
             return true;
         }
         flag[index] = 0;

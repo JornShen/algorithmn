@@ -1,4 +1,3 @@
-
 /***
 
 输出所有和为S的连续正数序列。序列内按照从小至大的顺序，
@@ -20,7 +19,7 @@ public class Solution {
         if(sum < 3) return array;
         int num,value;
         for(int i = 2; i < Math.round(Math.sqrt(2*sum))+1; i++){ //此处需要用 sum 的两倍
-            if((2*sum) % i == 0){
+            if((2　*　sum) % i == 0){
                 value = 2 * sum / i; // value 表示值
                 num = i;
                 if(value > num){

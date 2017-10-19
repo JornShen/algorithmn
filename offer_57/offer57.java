@@ -1,5 +1,3 @@
-
-
 /*****
 给定一个二叉树和其中的一个结点，请找出中序遍历顺序的下一个结点并且返回。
 注意，树中的结点不仅包含左右子结点，同时包含指向父结点的指针。
@@ -19,14 +17,13 @@ public class TreeLinkNode {
 public class Solution {
     public TreeLinkNode GetNext(TreeLinkNode pNode)
     {
+    	// pNode 为当期节点，　求下一个节点 
           if(pNode == null) return null; // 根节点
-          if(pNode.right == null){
-              
+          if(pNode.right == null){　// 没有右边孩子
               /****  ---- 错误做法 没有理解思想
               if(pNode.next.left == pNode){
                   return pNode.next; //左边子节点
               }else{
-                  
                   if(pNode.next.next.next == null){
                      //根节点
                      if(pNode.next.next.right == pNode.next){
@@ -34,32 +31,21 @@ public class Solution {
                      }
                   }
                   return pNode.next.next;
-                  
-                  
               }
-              
               **/
               // ------ 关键步骤 --------
-              while(pNode.next != null){ // 沿父节点向上找 左边一定在其后 右边在其之前
+              while(pNode.next != null){  // 沿父节点向上找 左边一定在其后 右边在其之前
                   if(pNode.next.left == pNode) return pNode.next;
                   pNode = pNode.next;
               }
-              
               return null;
-                 
           }else{
-              
               TreeLinkNode temp = pNode.right;
-              
+              //　有孩子的最左边的节点
               while(temp.left != null){
                   temp = temp.left;
               }
               return temp;
-              
           }
-       
-        
-        
-        
     }
 }

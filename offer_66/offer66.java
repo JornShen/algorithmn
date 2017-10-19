@@ -96,7 +96,7 @@ public class Solution {
     public boolean matchCore(char[] str, int strIndex, char[] pattern, int patternIndex) {
         // 两个匹配到头
         if (str.length == strIndex && pattern.length == patternIndex) return true;
-        // 模式匹配到头
+        // 模式匹配到头, 串到头, 但是匹配没有到头.
         if (str.length != strIndex && pattern.length == patternIndex) return false;
 
         // 模式没有匹配到头
@@ -104,8 +104,8 @@ public class Solution {
         if (patternIndex < pattern.length - 1 && pattern[patternIndex + 1] == '*') {
             if ((strIndex != str.length && pattern[patternIndex] == str[strIndex]) ||
                     (pattern[patternIndex] == '.' && strIndex != str.length)) {
-                // 核心关键代码 分三种情况  以上代码没有做出来的关键原因
-                return matchCore(str, strIndex, pattern, patternIndex + 2) // x* 不匹配字符
+                // 核心关键代码 分三种情况,　以上代码没有做出来的关键原因
+                return matchCore(str, strIndex, pattern, patternternIndex + 2) // x* 不匹配字符
                         || matchCore(str, strIndex + 1, pattern, patternIndex + 2) // 仅仅匹配一个字符
                         || matchCore(str, strIndex + 1, pattern, patternIndex); // 继续的匹配下一个字符
             } else {
@@ -119,8 +119,3 @@ public class Solution {
         }
         return false;
     }
-
-
-
-
-
