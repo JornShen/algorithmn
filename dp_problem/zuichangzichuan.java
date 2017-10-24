@@ -30,6 +30,7 @@ public static String maxSubstring1(String strOne, String strTwo) {
         minStr = strOne;
     }
 
+    // 切割较长的字符串，来匹配较短的字符串
     // 长度从最小串的长度往后递减
     // 两层循环遍历,  从最小的串的长度 n 到 1, 此处必须从后面进行遍历.
     for (int i = 0; i < minStr.length(); i++) {
