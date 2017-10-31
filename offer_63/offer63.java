@@ -16,7 +16,7 @@ public class Solution {
         int begin;
         LinkedList<Integer> array = new LinkedList<>(); // 存放index
         for(int i = 0; i < num.length; i++){
-            begin = i - size + 1;
+            begin = i - size + 1; 
             if (array.isEmpty())
                 array.addLast(i);
             else if (array.getFirst() < begin) { // 一次仅仅添加一个元素，所以仅仅从队列头弹出一个元素

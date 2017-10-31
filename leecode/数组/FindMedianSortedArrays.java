@@ -34,12 +34,12 @@ public class Solution {
     }
     
     public int minOne(int[] nums1, int[] nums2) {
-        if (p1 ==  nums1.length) {
-            return nums2[p2 ++];
+        if (p1 ==  nums1.length) {　//　前一个数组到达末尾了
+            return nums2[p2++];
         }
-        if (p2 ==  nums2.length) {
-            return nums1[p1 ++];
+        if (p2 ==  nums2.length) { //　后一个数组到达末尾了
+            return nums1[p1++];
         }
-        return nums1[p1] > nums2[p2] ? nums2[p2 ++] : nums1[p1 ++];
+        return nums1[p1] > nums2[p2] ? nums2[p2++] : nums1[p1++];
     }
 }

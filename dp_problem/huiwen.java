@@ -10,7 +10,6 @@
 
 manacher　算法
 
-
 public static int getLongestPalindrome(String A, int n) {
         // manacher　算法
         StringBuffer sb = new StringBuffer("#");
