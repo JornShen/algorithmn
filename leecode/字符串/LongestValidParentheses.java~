@@ -14,7 +14,7 @@ public class Solution {
         Stack<Integer> stack = new Stack<>();
         char[] str = s.toCharArray();
         int maxAns = 0;
-        stack.push(-1); //留一个数作为基准值
+        stack.push(-1); //留一个数作为基准值，　这个初始基低非常重要
         for (int i = 0; i < str.length; i++) {
         	//代码核心部分 ()()())()()()
             if (str[i] == '(') {
@@ -35,12 +35,11 @@ public class Solution {
 /****
 Dp 解决
 
-s[i] = '('：
-DP[i] = 0
+s[i] = '('：　DP[i] = 0
 
-找i前一个字符的最长括号串DP[i]的前一个字符j = i-2-DP[i-1]
-DP[i] = DP[i-1] + 2 + DP[j]，如果j >=0，且s[j] = '('
-DP[i] = 0，如果j<0，或s[j] = ')'
+找i前一个字符的最长括号串DP[i]的前一个字符　j = i-2-DP[i-1]
+如果j >=0，且　s[j] = '('，　DP[i] = DP[i-1] + 2 + DP[j]
+如果j　<　0，或　s[j] = ')'，　DP[i] = 0
 
 ****/
 
@@ -63,5 +62,3 @@ public class Solution {
 }
 
 //以右括号为记录的标志
-
-

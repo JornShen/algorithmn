@@ -14,7 +14,7 @@ Note: You may not slant the container and n is at least 2.
 	只有改变最小的高度才能弥补宽度减小的损失.
 
 class Solution {
-    public int maxArea(int[] height) {
+    public int maxAreaw(int[] height) {
        int l = 0, r = height.length - 1;
         int max = 0;
         while (l < r) {

@@ -1,3 +1,12 @@
+/*
+题目描述: 
+
+Merge k sorted linked lists and return it as one sorted list. Analyze and describe its complexity.
+
+*/
+
+
+
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -99,6 +108,7 @@ public class Solution {
 //------------ 比较投机取巧的做法 ----------------
 
 public class Solution {
+  
     public ListNode mergeKLists(List<ListNode> lists) {
         if (lists==null||lists.size()==0) return null;
         

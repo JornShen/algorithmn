@@ -1,4 +1,5 @@
 /*****
+leetcode 36:
 
 Determine if a Sudoku is valid, according to: Sudoku Puzzles - The Rules.
 
@@ -8,6 +9,7 @@ The Sudoku board could be partially filled, where empty cells are filled with th
 A partially filled sudoku which is valid.
 
 判断数读是否合法
+
 ****/
 
 public class Solution {
@@ -24,6 +26,7 @@ public class Solution {
             rowCheck.clear();
             columnCheck.clear();
             for (int j = 0; j < 9; j++) {
+                // 行判断
                 if (board[i][j] != '.') {
                     int num = Integer.parseInt(Character.toString(board[i][j]));
                     if (rowCheck.contains(num)) return false;
@@ -32,6 +35,7 @@ public class Solution {
                     rowCheck.add(num);
                     lattice[i / 3][j / 3].add(num);
                 }
+                // 列判断
                 if (board[j][i] != '.') {
                     int num = Integer.parseInt(Character.toString(board[j][i]));
                     if (columnCheck.contains(num)) return false;
@@ -46,7 +50,7 @@ public class Solution {
 // 以上代码使用了 set 集合 
 
 // ------------------- 用位运算来判断是否相同 ------------------
-// 代码比较简洁
+// 代码比较简洁，　采用位标记进行判断
 public class Solution {
     public boolean isValidSudoku(char[][] board) {
         int[] rows = new int[9];

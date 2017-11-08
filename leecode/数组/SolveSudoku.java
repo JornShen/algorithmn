@@ -1,4 +1,6 @@
 /*******
+leetcode 37:
+
 Write a program to solve a Sudoku puzzle by filling the empty cells.
 
 Empty cells are indicated by the character '.'.
@@ -18,7 +20,6 @@ public class Solution {
         if (y >= 9) return searchBoard(board, x + 1, 0); // check next line
         if (x >= 9) return true; // finished 
         if (board[x][y] != '.') return searchBoard(board, x, y + 1); // check next one
-       
         // 此处可以进行优化
         for (char i = '1'; i <= '9'; i++) {
             board[x][y] = i;
