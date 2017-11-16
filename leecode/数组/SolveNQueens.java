@@ -1,4 +1,7 @@
 /************
+
+leetcode 51:
+
 N 皇后问题
 
 Given an integer n, return all distinct solutions to the n-queens puzzle.
@@ -33,7 +36,7 @@ public class Solution {
         Arrays.fill(line, '.');
         result[1] = 0;
         int k = 1;
-        // **核心代码** 
+        // **核心代码**,　参考　张德富　的算法设计
         while (k > 0) {
             while (result[k] <= (n - 1)) { // 到 n - 1 步，相当于到了最后一格
                 result[k]++;

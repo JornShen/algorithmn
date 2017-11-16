@@ -16,10 +16,10 @@
 7. 全排列的下一个序列  -> NextPermutation.java
 
 8. 查找旋转的数组的数的位置 -> Search.java 
-
+	
 9. 查找有序的数组的范围,  要求 O(log(n)) 的时间复杂度  SearchRange.java
 
-10. 　查找数字在数组中的位置或者应该插入到什么位置．
+10. 　查找数字在数组中的位置或者应该插入到什么位置． 
 
 11. 数独的合法性的判断
 
@@ -30,6 +30,39 @@
 14. 寻找第一个缺失的正数．
 
 15. 陷阱积水, 求数组表示的柱子可以存放的积水．	
+
+16. 跳格子问题，数组的值表示跳的最大的步数 
+
+17.　数组的字典序
+
+18. 数组的所有可能的不重复的序列 
+
+19.　数组旋转　90　度    Ratio.java
+
+20.  给出 N 皇后问题的所有的解决方法  SolveNQueens.java
+
+21. 　给出 N 皇后问题的解决方法的种类 TotalNQueens.java
+
+22.　求子数组的最大值 MaxSubArray.java
+
+23.　回字走二维数组　　SpiralOrder.java
+
+24. 跳格子问题．判读是否可以一次性跳到数组的末尾．　　CanJump.java
+
+25. 合并间隔问题　 Merge.java
+
+26. 给出没有重叠的间隙，　以及一个间隙，　然后归并该间隙组当中 Insert.java
+
+27. 根据输入n的大小，　产生旋转回文的数组．　GenerateMatrix.java
+
+28.　给定一个n值，求它的第 k 个字典序． GetPermutation.java
+
+29. 从左上角走到右下角，　可以走的所有路径 UniquePaths.java
+
+30.　和上一题不一样的是，有一个数组表示，　该空格是否可以走. 求种类. 　UniquePathsWithObstacles.java
+
+31. 求二维数组从左上角到右下角最小的路径．　MinPathSum.java
+
 
 
 

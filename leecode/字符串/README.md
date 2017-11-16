@@ -19,3 +19,13 @@
 9. 查找串中含有单词数组的所有的起始位置．　 FindSubstring.java
 
 10. 寻找最长的匹配括号的串	 LongestValidParentheses.java
+
+11. 分隔具有相同字母的字符串　GroupAnagrams.java
+
+12. 求句子的最后一个单词的长度．　 LengthOfLastWord.java
+
+
+
+
+
+
