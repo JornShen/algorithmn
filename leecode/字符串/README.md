@@ -24,8 +24,12 @@
 
 12. 求句子的最后一个单词的长度．　 LengthOfLastWord.java
 
+13. 给定一行的长度，　排单词．　FullJustify.java
 
+14. 给定一个　linux 路径，　求简化后的路径. SimplifyPath.java
 
+15. 求字符串 a，　包含　所有字符串 b 的最小的字符串区间　MinWindow.java
 
+16. 用二叉树表示两个字符串，　求两个字符串是否可以由通过二叉树的左右子树交换相等　 IsScramble.java
 
-
+17. 字符串切割，将数字翻译成字母的种类　	NumDecodings.java

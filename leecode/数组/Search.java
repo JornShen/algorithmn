@@ -1,5 +1,4 @@
 /*
-
 leetcode 33:
 
 Suppose an array sorted in ascending order is rotated at some pivot unknown to you beforehand.
@@ -54,6 +53,7 @@ class Solution {
                 return mid;
             }
             if (nums[left] > nums[right]) {
+                //　之前错误的写法
                 /*if (target >= nums[left] && target < nums[mid]) {
                     right = mid - 1;
                 } else {
@@ -111,15 +111,13 @@ class Solution {
                 return mid;
             }
             if (nums[mid] < nums[right]) {
-                if (target > nums[mid] 
-                    && target <= nums[right]) {
+                if (target > nums[mid] && target <= nums[right]) {
                     left = mid + 1;
                 } else {
                     right = mid - 1;
                 }
             } else {
-                if (nums[mid] > target 
-                    && target >= nums[left]) {
+                if (nums[mid] > target && target >= nums[left]) {
                     right = mid - 1;
                 } else {
                     left = mid + 1;

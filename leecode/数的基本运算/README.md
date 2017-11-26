@@ -20,5 +20,12 @@
  
 10. 判断一个串是否是数  IsNumber.java
 
-11. 数组表示的正整数加1 PlusOne.java 
+11. 数组表示的正整数加1 PlusOne.java
 
+12.　两个二进制数的加和　AddBinary.java
+
+13.　求 sqrt 的运算　 MySqrt.java
+
+14. 跳台阶问题　ClimbStairs.java
+
+15.　产生格雷码 GrayCode.java

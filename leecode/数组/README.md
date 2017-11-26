@@ -1,4 +1,3 @@
-
 #### 数组
 
 1. 求两个数组的中间的数字    ->  FindMedianSortedArrays.java
@@ -63,6 +62,19 @@
 
 31. 求二维数组从左上角到右下角最小的路径．　MinPathSum.java
 
+32.　数组中元素为 0, 则将其的所在的行和列置为0  SetZeroes.java
 
+33. 二维有序数组查找一个数是否存在　SearchMatrix.java
 
+34.　荷兰国旗问题，　解法类似于快排的　partition. SortColors.java
+
+35.　对于排序的数组，整理数，使得重复的数只有两个，并返回总的数的个数．	RemoveDuplicates2.java
+
+36. 求在旋转的有序可重复的数组是否存在相应的数.　　Search2.java
+
+37. 求矩形长方形的最大的面积．　　LargestRectangleArea.java
+
+38. 求合并两个数组到更大空间的那个数组 Merge1.java
+
+39.　产生数组不重复的子集合　SubsetsWithDup.java
 
