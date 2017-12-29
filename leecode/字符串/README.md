@@ -33,3 +33,15 @@
 16. 用二叉树表示两个字符串，　求两个字符串是否可以由通过二叉树的左右子树交换相等　 IsScramble.java
 
 17. 字符串切割，将数字翻译成字母的种类　	NumDecodings.java
+
+18. 字符串切割成 ip 地址　 RestoreIpAddresses.java
+
+19. 判断回文字符是有效的　IsPalindrome.java
+
+20. 单词阶梯，给出起始单词和目的单词，求在单词表中，起始单词至少经过几个单词的转化才能目的单词 LadderLength.java
+
+21. 在20的基础上，　求出所有的可能的转换 FindLatter.java
+
+22.　将字符串切割，使得切割后的字符串都是回文串 Partition.java
+
+23. 将字符串中的单词倒置　ReverseWords.java

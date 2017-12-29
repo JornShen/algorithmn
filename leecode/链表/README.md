@@ -20,3 +20,18 @@
 
 10.　将链表中小于 x　的 node 放在 左边，大于 x 的放在右边，并且不改变他们的相对位置　 Partition.java
 
+11.　反向从 m　到　n 的节点　ReverseBetween.java
+
+12. 深度复制有随机指向的链表　CopyRandomList.java
+
+13. 判断链表是否有环 HasCycle.java
+
+14. 寻找环的起始点 DetectCycle.java
+
+15.　对链表重新进行排序, 详细要求见文件 ReorderList.java
+
+16. 手动写一个 LRU Cache 要求时间复杂度要在 O(1) LRUCache.java　
+
+17. 对链表进行插入排序 InsertionSortList.java
+
+18. 对链表排序，要求排序的时间复杂度为 nlog(n)　SortList.java 

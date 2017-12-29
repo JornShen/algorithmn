@@ -78,3 +78,16 @@
 
 39.　产生数组不重复的子集合　SubsetsWithDup.java
 
+40. 给定层数，　求　Pascal's Triangle 的创建 Generate.java 
+
+41. 给定层数求，那一层　triangle 的数组　GetRow.java
+
+42.　简单的股票买卖问题，左边数，右边的数卖，求做大的利润　MaxProfit.java
+
+43. 股票交易问题　MaxProfit1.java
+
+44. 求序列的数组中连续的数的长度 LongestConsecutive.java
+
+45.　汽车走一个环形，给出每个站可以加的油，以及到下一个站所花费的,　求开始站点.  CanCompleteCircuit.java 
+
+46. 除了一个数出现一次，其他的数出现三次　 SingleNumber.java

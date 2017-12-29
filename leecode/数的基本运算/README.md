@@ -29,3 +29,7 @@
 14. 跳台阶问题　ClimbStairs.java
 
 15.　产生格雷码 GrayCode.java
+
+16. 一组数当中数成对出现，除了一个数之外，求这个数 SingleNumber.java
+
+17. 给定一组字符串，　求出逆波兰表示法的结果　EvalRPN.java

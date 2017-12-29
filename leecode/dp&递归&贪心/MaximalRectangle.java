@@ -1,7 +1,8 @@
 /*
 leetcode 85:
 
-Given a 2D binary matrix filled with 0's and 1's, find the largest rectangle containing only 1's and return its area.
+Given a 2D binary matrix filled with 0's and 1's, find the largest rectangle 
+containing only 1's and return its area.
 
 For example, given the following matrix:
 
@@ -60,8 +61,8 @@ class Solution {
         int[] r = new int[col];
         int[] h = new int[col];
         Arrays.fill(r, col);
-        Arrays.fill(l, 0);
-        Arrays.fill(h, 0);
+        // Arrays.fill(l, 0);
+        // Arrays.fill(h, 0);
         for (int i = 0; i < row; i++) {
             // 统计高度
             for (int j = 0; j < col; j++) {
