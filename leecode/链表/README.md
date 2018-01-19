@@ -35,3 +35,9 @@
 17. 对链表进行插入排序 InsertionSortList.java
 
 18. 对链表排序，要求排序的时间复杂度为 nlog(n)　SortList.java 
+
+19. 求两个链表的交会点 GetIntersectionNode.java
+
+20. 去除链表的中的特定值的节点　RemoveElements.java
+
+21. 链表翻转　ReverseList.java 

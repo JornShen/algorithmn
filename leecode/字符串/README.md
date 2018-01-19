@@ -45,3 +45,7 @@
 22.　将字符串切割，使得切割后的字符串都是回文串 Partition.java
 
 23. 将字符串中的单词倒置　ReverseWords.java
+
+24.　求 DNA　序列中重复出现的序列（10个字符） FindRepeatedDnaSequences.java
+
+25. 求两个字符串是否同构　IsIsomorphic.java

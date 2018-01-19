@@ -29,3 +29,11 @@
 13. 字符串切割，使得切割后的字符串在所在的 list 集合里面 WordBreak.java
 
 14.　在　13　题目的基础上求出所有的切割的可能性　WordBreak2.java 
+
+15. 求连续子序列乘积的最大值　MaxProduct.java
+
+16. 股票买卖问题，　求至多 n 次交易获得的最大的利润　MaxProfit1.java
+
+17. 劫匪如何抢劫能够抢到最大的价值。要求不能抢相邻的房屋　Rob.java
+
+18. 二维数组中， 1 表示　岛屿，　０　表示水，　求孤立的岛屿 NumIslands.java

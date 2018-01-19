@@ -91,3 +91,22 @@
 45.　汽车走一个环形，给出每个站可以加的油，以及到下一个站所花费的,　求开始站点.  CanCompleteCircuit.java 
 
 46. 除了一个数出现一次，其他的数出现三次　 SingleNumber.java
+
+47. 求经过旋转中最小的数　FindMin.java
+	
+48. 在 47 的基础上, 添加了重复数的条件 FindMin2.java
+
+49.　求一个数组中的顶峰元素(元素大于左右两边的数) FindPeakElement.java
+
+50. 求一个未排序的数组的排序的状态的相邻的差值最大　MaximumGap.java
+
+51. 求有序数组中两个数的和等于一个固定的数　 TwoSum.java
+
+52.　求一个数组中超过一半的数 MajorityElement.java
+
+53. 将数组向右进行旋转 k 个位置 Rotate.java
+
+54. 课程调度，　拓扑排序，　判断是否有环　CanFinish.java
+
+55. 求连续的最小长度的子数组的和大于某个值　MinSubArrayLen.java
+

@@ -49,3 +49,10 @@
 24. 树的先序遍历 PreorderTraversal.java
 
 25.　树的后续遍历 PostorderTraversal.java
+
+26.　二叉搜索树遍历下一个最小的值　BSTIterator.java
+
+27. 求向右边看树从顶向下的节点值　RightSideView.java
+
+28.　前缀树的建立　PrefixTree.java 
+

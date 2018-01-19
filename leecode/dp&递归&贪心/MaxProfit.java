@@ -11,9 +11,6 @@ You may not engage in multiple transactions at the same time
 
 */
 
-
-
-
 class Solution {
     public int maxProfit(int[] prices) {
     	// 第一次解法，求所有的利润的增长的最大值，然后取前两个，这样只能做到局部最优的解
@@ -56,7 +53,3 @@ class Solution {
         return global[n - 1][2];
     }
 }
-
-
-
-

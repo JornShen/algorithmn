@@ -84,7 +84,7 @@ class Solution {
                 }
 
             } else {
-            	// 在左边的区域
+            	// 在左半边的区域, 或者右半边的区域, 
                 if (nums[mid] > target) {
                     right = mid - 1;
                 } else {
@@ -97,9 +97,7 @@ class Solution {
 
 }
 
-
 // 另一种思路 
-
 class Solution {
    public int search(int[] nums, int target) {
         if (nums == null || nums.length == 0) return -1;

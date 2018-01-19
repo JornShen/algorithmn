@@ -33,3 +33,27 @@
 16. 一组数当中数成对出现，除了一个数之外，求这个数 SingleNumber.java
 
 17. 给定一组字符串，　求出逆波兰表示法的结果　EvalRPN.java
+
+18. 求一组点中在同一条直线的最多的点 MaxPoints.java 
+
+19. 版本号进行比较 CompareVersion.java
+
+20. 将分数转化为小数，无限循环小数的循环部分用 括号　括起来　FractionToDecimal.java
+
+21.　将数转化 A ~ Z　的串 ConvertToTitle.java
+
+22. 21题的逆序列 TitleToNumber.java
+
+23. 求 n!　的零结尾的个数 TrailingZeroes.java
+
+24. 求将数组中所有的数组合起来得到的最大的数　LargestNumber.java
+
+25. 将数字位进行翻转　　ReverseBits.java
+
+26.　统计数字中　1 的个数　HammingWeight.java
+
+27. 求某个范围的数的与操作的结果　RangeBitwi	seAnd.java
+
+28.　快乐数的判定　IsHappy.java
+
+29.　求小于某个数的素数 CountPrimes.java
