@@ -49,3 +49,9 @@
 24.　求 DNA　序列中重复出现的序列（10个字符） FindRepeatedDnaSequences.java
 
 25. 求两个字符串是否同构　IsIsomorphic.java
+
+26. 添加单词，查询匹配单词 WordDictionary.java
+
+27.　单词查找，　在二维的单词板上查找是否有所要查找的单词 FindWord.java
+
+28. 在字符串前面加上一段字符串，使之成为一段回文字符串，要求加上的字符串最少　 ShortestPalindrome.java

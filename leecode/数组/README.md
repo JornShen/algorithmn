@@ -110,3 +110,16 @@
 
 55. 求连续的最小长度的子数组的和大于某个值　MinSubArrayLen.java
 
+56. 课程调度，　拓扑排序，　求调度的顺序　FindOrder.java
+
+57. 求数组的第Ｋ大数　FindKthLargest.java
+
+58. 求k个数的加等于某个数　CombinationSum3.java　
+
+59.　求数组中是否有重复的数字　ContainsDuplicate.java
+
+60.　求城市的天际线问题　GetSkyline.java
+
+61. 求数组中是否存在两个相同的数之间的间隔差距小于　k 	ContainsNearbyDuplicate.java 
+
+62. 求数组中是否存在两个数相差t,间隔在 k 之间　ContainsNearbyAlmostDuplicate.java

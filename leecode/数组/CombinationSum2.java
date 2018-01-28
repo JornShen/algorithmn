@@ -21,7 +21,7 @@ A solution set is:
 ／／递归方法，　剪枝，　有点类似于　0, 1 背包问题.
 class Solution {
 	
-   private  Set<List<Integer>> all = new HashSet<>();
+   private  Set<List<Integer>>   all = new HashSet<>();
 
    public List<List<Integer>> combinationSum2(int[] candidates, int target) {
         List<Integer> l = new ArrayList<>();

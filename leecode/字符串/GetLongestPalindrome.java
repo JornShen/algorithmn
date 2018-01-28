@@ -2,7 +2,8 @@
 
 leetcode 5:
 
-Given a string s, find the longest palindromic substring in s. You may assume that the maximum length of s is 1000.
+Given a string s, find the longest palindromic substring in s. 
+You may assume that the maximum length of s is 1000.
 
 Example:
 
@@ -79,7 +80,7 @@ public String longestPalindrome(String s) {
     for (int i = 0; i < s.length(); i++) {
         sb.append(s.charAt(i) + "#");
     }
-    int i, mx = 0, id = 0, max = 0; // mx 回文序列的最长的右端　
+    int i, mx = 0, id = 0, max = 0; // mx 回文序列的最长的右端
     int pos = 0;
     int[] p = new int[sb.length()];
     for (i = 1 ; i < sb.length(); i++) {
@@ -116,5 +117,3 @@ public String longestPalindrome(String s) {
 }
 
 [参考博客](https://wizardforcel.gitbooks.io/the-art-of-programming-by-july/content/01.05.html)
-
-
