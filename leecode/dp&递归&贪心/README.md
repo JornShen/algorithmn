@@ -39,3 +39,7 @@
 18. 二维数组中， 1 表示　岛屿，　０　表示水，　求孤立的岛屿 NumIslands.java
 
 19.　盗窃价值最大，　只是房子是循环的　Rob2.java
+
+20. 求长方形中最大的正方形　<MaximalSquare class="java"></MaximalSquare>
+
+

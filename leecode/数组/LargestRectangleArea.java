@@ -1,4 +1,4 @@
-/*
+        /*
 
 leetcode 84:
 
@@ -62,7 +62,7 @@ class Solution {
                 stack.push(i++);
             } else {
             	// 弹栈计算高度．
-                int tmp = stack.pop();
+                int tmp = stack.pop(); // 弹出的是左边界。栈当中所有大于 h[i]　的高度到了右边界了。
                 maxArea = Math.max(maxArea, h[tmp] * (stack.isEmpty() ? i : i - stack.peek() - 1));
             }
         }

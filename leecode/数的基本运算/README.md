@@ -57,3 +57,11 @@
 28.　快乐数的判定　IsHappy.java
 
 29.　求小于某个数的素数 CountPrimes.java
+
+30.　将串转化为运算的结果　Calculate.java
+
+31.　将串转化为运算，加入了 * 和　/   Calculate.java
+
+32.　求数是否是 2 的倍数　IsPowerOfTwo.java
+
+33. 统计数字中　1　的个数　CountDigitOne.java

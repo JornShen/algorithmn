@@ -98,7 +98,7 @@
 
 49.　求一个数组中的顶峰元素(元素大于左右两边的数) FindPeakElement.java
 
-50. 求一个未排序的数组的排序的状态的相邻的差值最大　MaximumGap.java
+50. 求一个未排序的数组的排序的状态的相邻的差值最大,桶排序　MaximumGap.java
 
 51. 求有序数组中两个数的和等于一个固定的数　 TwoSum.java
 
@@ -123,3 +123,7 @@
 61. 求数组中是否存在两个相同的数之间的间隔差距小于　k 	ContainsNearbyDuplicate.java 
 
 62. 求数组中是否存在两个数相差t,间隔在 k 之间　ContainsNearbyAlmostDuplicate.java
+
+63. 求数组中数的范围　SummaryRanges.java
+
+64.　求数组中大于数量三分之一的数  MajorityElement.java

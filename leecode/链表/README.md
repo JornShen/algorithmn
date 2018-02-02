@@ -41,3 +41,5 @@
 20. 去除链表的中的特定值的节点　RemoveElements.java
 
 21. 链表翻转　ReverseList.java 
+
+22. 判断链表是否是回文　IsPalindrome.java

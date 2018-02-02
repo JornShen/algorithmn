@@ -51,6 +51,7 @@ class Solution {
 // r: 从 j 到该行末尾，第一个0的位置, 向右扩展最长的位置
 // h: j 位置的高度
 // (r[j] - l[j]) * h[j]
+// 即是以当前点为中心，以height为高度向两边扩散的左右边界
 
 class Solution {
     public int maximalRectangle(char[][] matrix) {
@@ -71,24 +72,26 @@ class Solution {
             }
             int leftBound = 0;
             int rightBound = col;
+            // 每一行的 l, r 数组是在上一行的基础上进行更新的
             // 计算左边界
             for (int j = 0; j < col; j++) {
                 if (matrix[i][j] == '1') {
                     l[j] = Math.max(l[j], leftBound);
                 } else {
                     leftBound = j + 1;
-                    l[j] = 0;
+                    l[j] = 0;　// 这个值设置后没有任何意义了，因为　h[j] 已经等于 0　了
                 }
             }
             //计算右边界
             for (int j = col - 1; j >= 0; j--) {
                 if (matrix[i][j] == '1') {
-                    r[j] = Math.min(r[j], rightBound);
+                    r[j] = Math.min(r[j], rightBound);  
                 } else {
                     r[j] = col;
                     rightBound = j;
                 }
             }
+
             for (int j = 0; j < col; j++) {
                 maxOne = Math.max(maxOne, (r[j] - l[j]) * h[j]);
             }
@@ -96,3 +99,5 @@ class Solution {
         return maxOne;
     } 
 }
+
+[解析博客](http://blog.csdn.net/maxiaotiaoti/article/details/62230381)
