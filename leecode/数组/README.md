@@ -127,3 +127,15 @@
 63. 求数组中数的范围　SummaryRanges.java
 
 64.　求数组中大于数量三分之一的数  MajorityElement.java
+
+65. 数组中其他数乘积除了他自己的乘积　 ProductExceptSelf.java
+
+66. 求滑动模块中的最大数的序列　MaxSlidingWindow.java
+
+67. 在从左到有递增，从上到下递增的二维数组中寻值　SearchMatrix2.java 
+
+68. 在数组中的数，有两个数不同，　其他的数是一样的　SingleNumber3.java
+
+69.　求连续的数组中缺少的连续的数　MissingNumber.java
+
+70. 求数组中大于某个数且个数为该数，求最大的这个数 HIndex.java

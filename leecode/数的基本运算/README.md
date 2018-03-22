@@ -65,3 +65,11 @@
 32.　求数是否是 2 的倍数　IsPowerOfTwo.java
 
 33. 统计数字中　1　的个数　CountDigitOne.java
+
+34. 求串对应，所有的种类的计算结果　DiffWaysToCompute.java
+
+35. 数位相加，　当为单位数的时候，返回　AddDigital.java 
+
+36. 数是否是丑数 IsUgly.java
+
+37. 求第n个丑数 NthUglyNumber.java 

@@ -62,3 +62,8 @@
 
 31. 二叉搜索树的第 k 大的值　kthSmallest.java
 
+32.　求两个节点最近的公共祖先 LowestCommonAncestor.java
+
+33. 求两个节点的最近的公共祖先，该树非特定的二叉搜索树　LowestCommonAncestor2.java
+
+34. 求树从根到叶子的路径　BinaryTreePaths.java

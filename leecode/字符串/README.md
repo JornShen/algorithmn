@@ -55,3 +55,8 @@
 27.　单词查找，　在二维的单词板上查找是否有所要查找的单词 FindWord.java
 
 28. 在字符串前面加上一段字符串，使之成为一段回文字符串，要求加上的字符串最少　 ShortestPalindrome.java
+
+29. 求后一个字符串能否由后一个字符串组合而成　IsAnagram.java
+
+30. 将阿拉伯数字转化为字符串 NumberToWords.java
+
